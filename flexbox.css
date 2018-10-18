@@ -93,6 +93,11 @@
 	justify-content: flex-end;
 }
 
+.column{
+	display: flex;
+	flex-direction: vertical;
+	justify-content: space-around}
+
 .space-between{
 	justify-content: space-between;
 }
@@ -412,6 +417,7 @@
 
 .container-right{
 	text-align: right
+
 }
 .background-rainbow{
   background-image: linear-gradient(to bottom right, #b0e0e6, #778899);
@@ -433,5 +439,17 @@
 	justify-content: center;
 	padding-left: 30%
 	padding-right: 30%;
+}
+
+.orangebox{
+	background-color: orange;
+	width: 200px;
+	height: 1000px;
+}
+
+.blackbox{
+	background-color: black;
+	width: 200px;
+	height: 1000px;
 }
 
