@@ -79,6 +79,13 @@
 	padding-bottom: 5%;
 }
 
+.flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	}
+
 .flex-start{
 	display: flex;
 	width: 100%;
@@ -104,10 +111,19 @@
 	width: 70%;
 }
 
+.top-margin{
+	margin-top: 49%;
+}
+
+
 .column{
 	display: flex;
 	flex-direction: vertical;
-	justify-content: space-around}
+	justify-content: space-around
+	width: 100%;
+	height: 1000px;
+}
+
 
 .space-between{
 	justify-content: space-between;
@@ -121,8 +137,20 @@
 	text-align: right;
 }
 
+.flex{
+	display: flex;
+	width: 100%;
+	}
+
 .rotate-right{
 	transform: rotate(5deg);
+}
+
+.borderone{
+	border-width: 3px;
+	border-style: dashed;
+	border-color: orange;
+	margin: 5px 6px 5px 6px;
 }
 
 .rotate-left{
@@ -133,8 +161,20 @@
 	margin: 2%;
 }
 
+
+.marginnn{
+	margin: 1px;
+	text-decoration-style: bold;
+}
+
 .large{
 	font-size: 60px;
+	font-style: bold;
+	font-family: Ostrich Sans Inline;
+}
+
+.huge{
+	font-size: 200px;
 	font-style: bold;
 	font-family: Ostrich Sans Inline;
 }
@@ -459,13 +499,18 @@
 .orangebox{
 	background-color: orange;
 	width: 200px;
-	height: 800px;
+	height: 700px;
 }
 
 .blackbox{
 	background-color: black;
 	width: 200px;
-	height: 800px;
+	height: 700px;
+}
+
+.up{
+	z-index: 5;
+	font-size: 80px;
 }
 
 .text {
@@ -491,9 +536,38 @@
 	width: 100%;	
 }
 
+.fixedtwo{
+	position: absolute;
+	top: 350px;
+	left: 54px;
+	padding-left: 1%;
+	padding-right: 1%;
+	z-index: -2;
+	width: 100%;	
+}
+
+.fixedthree{
+	position: absolute;
+	top: 100px;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 3;
+	width: 88%;	
+}
+
+.fixedfour{
+	position: absolute;
+	top: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 4;
+	width: 88%;	
+}
+
 
 .white{
 	color: white;
+	z-index: 2;
 }
 
 
@@ -506,6 +580,28 @@
 	opacity: 0.75;
 }
 
+.background-white{
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	opacity: 0.75;
+}
+
+.background-orange{
+	background-color: orange;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	opacity: 0.75;
+}
+
+.maincontainer{
+	display: flex;
+	justify-content: center;
+}
 
 .titlee{
 	position: absolute;
