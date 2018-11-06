@@ -230,6 +230,17 @@
 	font-family: Anton;
 }
 
+.med-anton-four{
+	font-size: 32px;
+	font-style: bold;
+	font-family: Anton;
+	position: absolute;
+	top: 800px;
+	left: 170px;
+	text-align: center
+	flex-center: center;}
+
+
 .normal-anton{
 	font-size: 20px;
 	font-family: Anton;
@@ -624,6 +635,43 @@
 	text-align: center;
 }
 
+.bbb{
+  height: 200px;
+  width: 1200px;
+  overflow: hidden;
+  border: 10px white;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+	top: 200px;
+	left: 170px;
+	text-align: center
+}
+
+.bbb{
+  height: 200px;
+  width: 1200px;
+  overflow: hidden;
+  border: 10px white;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+	top: 200px;
+	left: 170px;
+	text-align: center
+}
+.bbbb{
+  height: 50px;
+  width: 1200px;
+  overflow: hidden;
+  border: 10px white;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+	top: 500px;
+	left: 170px;
+	text-align: center
+}
 .titlee{
 	position: absolute;
 	top: 200px;
